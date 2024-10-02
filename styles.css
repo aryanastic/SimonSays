@@ -1,0 +1,162 @@
+h1{
+  line-height: 1.5;
+}
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+  margin: 0;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.8rem;
+  margin:  3.5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.container2 {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  padding: 50px;
+
+}
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+}
+
+.startReset{
+font-family: 'Press Start 2P', cursive;
+font-weight: 600;
+font-size: 20px;
+color:  #FBFADA;
+background-color:#011F3F;
+padding: 15px 25px;
+border: solid #ffffff 1px;
+box-shadow: rgb(0, 0, 0) 2px 5px 24px -15px;
+border-radius: 15px;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction:row-reverse;
+align-items: center;
+cursor: pointer;
+text-transform: uppercase;
+margin: 0px 20px;
+
+}
+
+.startReset:hover{
+
+  transition : 500ms;
+  padding: 15px 30px;
+  transform : translateY(-0px);
+  background-color: #fff;
+  color: #011F3F;
+  border: solid 1px #011F3F;
+  }
+  
+
+@media only screen and (max-width: 1200px) {
+  
+  body{
+    margin-top: 200px;
+  }
+
+  .container {
+    width: 90%; 
+    margin: auto; 
+  }
+
+  .btn {
+    height: 300px; 
+    width: 300px;
+    margin: 20px; 
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  15%;
+    color: #FEF2BF;
+  }
+
+.startReset{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.footerDiv{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  color: antiquewhite;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+}
+}
+
+
+
+
+
+
+
+
